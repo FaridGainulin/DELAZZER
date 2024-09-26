@@ -1,0 +1,152 @@
+.main-section
+  background-color #AC79F2
+  background-image: url('../images/main-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+  &__container
+    position relative
+    padding 20px 0 0 0
+    +above($breakpoints.sm)
+      padding 40px 0 70px 0
+    +above($breakpoints.md)
+      padding 70px 0 90px 0
+    +above($breakpoints.xxl)
+      padding 88px 0 138px 0
+
+  &__title
+    text-align: center
+    +above($breakpoints.sm)
+      text-align: start
+
+  &__title
+    padding 20px 0 5px 0
+    +above($breakpoints.sm)
+      padding 40px 0 20px 0
+    +above($breakpoints.md)
+      padding 45px 0 20px 0
+    +above($breakpoints.xxl)
+      padding 57px 0 24px 0
+
+  &__title-first
+    color transparent
+    -webkit-text-stroke: 1px white
+    +above($breakpoints.md)
+      -webkit-text-stroke: 2px white
+
+  &__sub-title
+    display: flex
+    align-items: center
+    gap: 5px
+    +above($breakpoints.sm)
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 15px
+    +above($breakpoints.xxl)
+      gap: 21px
+
+  &__sub-title-icon
+    width 30px
+    height: auto
+    +above($breakpoints.sm)
+      width 70px
+    +above($breakpoints.md)
+      width 80px
+    +above($breakpoints.xxl)
+      width 91px
+
+  &__bottom
+    border-radius: 10px
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2)
+    border: 1px solid rgba(214, 214, 214, 0.15);
+    width 100%
+    margin-top 10px
+    +above($breakpoints.sm)
+      margin-top 35px
+      border-radius: 15px
+      width 673px
+      margin-left -10px
+    +above($breakpoints.md)
+      margin-top 45px
+      border-radius: 20px
+      width 773px
+      margin-left -15px
+    +above($breakpoints.xxl)
+      margin-left -20px
+      margin-top 51px
+      width 873px
+      height: 212px
+
+  &__bottom-title
+    backdrop-filter: blur(20px);
+    background: #fff;
+    border-radius: 10px
+    width 100%
+    padding 15px 10px 15px 20px
+    text-align: center
+    +above($breakpoints.sm)
+      text-align: start
+      border-radius: 15px
+      padding 20px 10px 15px 20px
+    +above($breakpoints.md)
+      border-radius: 20px
+      padding 25px 10px 20px 25px
+    +above($breakpoints.xxl)
+      padding 28px 10px 24px 34px
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    padding 10px 10px 15px 10px
+    +above($breakpoints.sm)
+      flex-direction: row
+      padding 15px 10px 25px 10px
+    +above($breakpoints.md)
+      padding 20px 10px 30px 30px
+    +above($breakpoints.xxl)
+      padding 25px 10px 35px 34px
+    & :nth-child(1)
+        width 280px !important
+        +above($breakpoints.sm)
+          width 150px !important
+        +above($breakpoints.md)
+          width 150px !important
+        +above($breakpoints.xxl)
+          width 201px !important
+    & :nth-child(2)
+        width 280px !important
+        +above($breakpoints.sm)
+          width 185px !important
+        +above($breakpoints.md)
+          width 200px !important
+        +above($breakpoints.xxl)
+          width 253px !important
+    & :nth-child(3)
+        width 280px !important
+        +above($breakpoints.sm)
+          width 180px !important
+        +above($breakpoints.md)
+          width 280px !important
+        +above($breakpoints.xxl)
+          width 316px !important
+
+  &__img
+    width 230px
+    height: auto
+    margin 15px auto 0
+    +above($breakpoints.sm)
+      margin 0
+      position: absolute
+      width 300px
+      bottom: 0
+      right: -68px
+    +above($breakpoints.md)
+      width 400px
+      right: -50px
+    +above($breakpoints.xxl)
+      width 500px
+      right: -80px

@@ -1,0 +1,29 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-c-bold.font-s-55.text-up
+        span.city-section__title-first.font-w-c-bold.font-s-75 Откройте 
+        br.no-br
+        | прибыльный 
+        br.no-br
+        | бьюти-коворкинг 
+        br.no-br
+        | в своем городе
+      .city-section__sub-title
+        img.city-section__sub-title-icon(src="images/city-section-sub-title-icon.png" loading="lazy" width="203" height="166" alt="icon")
+        .font-s-32
+          | по 
+          br.no-br
+          | франшизе 
+          br.no-br
+          span.font-w-bold «DELAZZER»
+      .city-section__bottom
+        .city-section__bottom-title.font-s-22.color-black
+          img.city-section__bottom-icon(src="images/city-section-bottom-icon.png" loading="lazy" width="494" height="162" alt="icon")
+          span.font-w-bold Проверьте, 
+          | свободен ли ваш город для работы
+        form.city-section__form(data-feedback-form)
+          input.input(type="text" name="city" autocomplete="off" placeholder="Ваш город")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Проверить локацию
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1038" height="1091" alt="image")

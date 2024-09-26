@@ -1,0 +1,175 @@
+.finances-section
+  background-image: url('../images/finances-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #fff
+
+  &__container
+    position relative
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      padding 70px 0 60px 0
+    +above($breakpoints.md)
+      padding 90px 0 80px 0
+    +above($breakpoints.xxl)
+      padding 177px 0 108px 0
+
+  &__title
+    text-align: center
+    padding-bottom 15px
+    +above($breakpoints.sm)
+      padding 0
+      text-align: start
+      display: flex
+      flex-direction: column
+      position: absolute
+      top: 85px;
+      left: 30px;
+    +above($breakpoints.md)
+      top: 100px
+      left: 0
+    +above($breakpoints.xxl)
+      top: 155px
+
+  &__title-icon
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      width 60px
+      height: auto
+    +above($breakpoints.md)
+      width 80px
+    +above($breakpoints.xxl)
+      width 97px
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-wrap: wrap
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 20px
+    +above($breakpoints.xxl)
+      gap: 24px
+    & > :nth-child(1)
+        +above($breakpoints.sm)
+          margin-left 368px
+        +above($breakpoints.md)
+          margin-left 492px
+        +above($breakpoints.xxl)
+          margin-left 601px
+
+  &__card
+    width 280px !important
+    background: linear-gradient(180deg, #f8f8f8 0%, #f9f4ff 100%);
+    border-radius: 10px
+    padding 15px 5px 15px 10px
+    color: #141414
+    text-align: center
+    +above($breakpoints.sm)
+      text-align: start
+      border-radius: 15px
+      width 174px !important
+      padding: 25px 0px 25px 10px;
+    +above($breakpoints.md)
+      border-radius: 20px
+      width 226px !important
+      padding: 30px 5px 30px 15px;
+    +above($breakpoints.xxl)
+      border-radius: 25px
+      width 277px !important
+      height: 310px
+      padding 38px 5px 37px 31px
+
+  &__card-icon
+    width 30px
+    height: auto
+    margin 0 auto
+    +above($breakpoints.sm)
+      margin 0
+      width 26px
+    +above($breakpoints.md)
+      width 30px
+    +above($breakpoints.xxl)
+      width 34px
+
+  &__card-title
+    padding 20px 0 15px 0
+    +above($breakpoints.sm)
+      padding 50px 0 15px
+    +above($breakpoints.md)
+      padding 70px 0 20px
+    +above($breakpoints.xxl)
+      padding 93px 0 23px
+
+  &__bottom
+    position relative
+    width 100%
+    border-radius: 10px
+    background: linear-gradient(180deg, #f8f8f8 0%, #f3e9ff 100%);
+    padding 15px 10px
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    text-align: center
+    +above($breakpoints.sm)
+      text-align: start
+      flex-direction: row
+      justify-content space-between
+      border-radius: 15px
+      padding 30px
+      margin-top 30px
+    +above($breakpoints.md)
+      border-radius: 20px
+      padding 40px 50px
+      margin-top 50px
+    +above($breakpoints.xxl)
+      height: 348px
+      border-radius: 25px
+      padding 50px 60px
+      margin-top 63px
+
+  &__bottom-icon
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      position: absolute
+      width: 249px;
+      height: auto;
+      bottom: -4px;
+      left: 188px;
+    +above($breakpoints.md)
+      width: 330px;
+      bottom: -20px;
+      left: 273px;
+    +above($breakpoints.xxl)
+      width: 411px;
+      bottom: -34px;
+      left: 353px;
+
+  &__bottom-text
+    display: flex
+    flex-direction: column
+    gap: 10px
+    +above($breakpoints.sm)
+      gap: 20px
+    +above($breakpoints.md)
+      gap: 30px
+    +above($breakpoints.xxl)
+      gap: 44px
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    width 280px
+    +above($breakpoints.sm)
+      width 260px
+    +above($breakpoints.md)
+      width 280px
+      gap: 10px
+    +above($breakpoints.xxl)
+      width 291px

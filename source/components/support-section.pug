@@ -1,0 +1,36 @@
+section.support-section
+  .wrapper
+    .support-section__container
+      h2.support-section__title.font-w-c-bold.font-s-45.text-up.color-black
+        | Узнайте больше 
+        span.color-violet-3 обо всех аспектах 
+        | работы
+      .support-section__sub-title.font-w-bold.font-s-22.color-violet
+        | Оставьте заявку, и мы расскажем вам:
+      .swiper-support
+        .support-section__cards.swiper-wrapper
+          .support-section__card.swiper-slide.support-card-margin-left
+            img.support-section__card-icon(src="images/support-section-card-icon-1.png" loading="lazy" width="280" height="280" alt="icon")
+            .font-s-18 Как избежать ошибок <br> на старте
+          .support-section__card.swiper-slide.support-card-margin-right
+            img.support-section__card-icon(src="images/support-section-card-icon-2.png" loading="lazy" width="280" height="280" alt="icon")
+            .font-s-18 Как выбрать <br> наилучшую локацию
+          .support-section__card.swiper-slide
+            img.support-section__card-icon(src="images/support-section-card-icon-3.png" loading="lazy" width="280" height="280" alt="icon")
+            .font-s-18 На каких услугах стоит <br> сосредоточиться
+          .support-section__card.swiper-slide
+            img.support-section__card-icon(src="images/support-section-card-icon-4.png" loading="lazy" width="280" height="280" alt="icon")
+            .font-s-18 Как обеспечить 100% <br> заполняемость <br> пространства
+          .support-section__card.swiper-slide.support-card-margin-left
+            img.support-section__card-icon(src="images/support-section-card-icon-5.png" loading="lazy" width="280" height="280" alt="icon")
+            .font-s-18 Какая реклама <br> работает, а какая будет <br> неэффективной
+          .support-section__card.swiper-slide.support-card-margin-right
+            img.support-section__card-icon(src="images/support-section-card-icon-6.png" loading="lazy" width="280" height="280" alt="icon")
+            .font-s-18 Как можно <br> масштабировать этот <br> тип бизнеса
+        .support-pagination.swiper-progress-support
+      form.support-section__form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") ОСТАВИТЬ ЗАЯВКУ
+      img.support-section__img(src="images/support-section-img.png" loading="lazy" width="1124" height="1528" alt="image")
+      img.support-section__icon(src="images/support-section-icon.png" loading="lazy" width="85" height="64" alt="icon")
